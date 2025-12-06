@@ -1,6 +1,5 @@
 import operator
 from functools import reduce
-from itertools import zip_longest
 from pathlib import Path
 
 
@@ -33,7 +32,7 @@ def read_input(path: Path) -> list[list[str]]:
         start = boundary + 1
 
     column = [line[start:] for line in lines]
-    column.append(op_line[start:])  # Add operator
+    column.append(op_line[start:])
     columns.append(column)
 
     return columns
