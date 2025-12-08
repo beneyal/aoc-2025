@@ -11,3 +11,7 @@ dependencies = [
 
 [tool.ruff]
 line-length = 120
+
+[tool.pyright]
+typeCheckingMode = "standard"
+exclude = [".venv"]
