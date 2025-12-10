@@ -5,7 +5,9 @@ description = "My Advent of Code 2025 solutions"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "numpy>=2.3.5",
     "rich>=14.2.0",
+    "scipy>=1.16.3",
     "tqdm>=4.67.1",
 ]
 
